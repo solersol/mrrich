@@ -248,8 +248,8 @@
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
-	background: var(--main-color);
-    background: linear-gradient(to top, var(--main-color) 0%, var(--color-two) 100%);
+	background: #766fff;
+    background: linear-gradient(to top, #766fff 0%, var(--color-two) 100%);
 }
 
 .gallery-block_one-inner:hover .gallery-block_one-content:before{
@@ -788,8 +788,8 @@
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
-	background: var(--main-color);
-    background: linear-gradient(to top, var(--main-color) 0%, var(--color-two) 100%);
+	background: #766fff;
+    background: linear-gradient(to top, #766fff 0%, var(--color-two) 100%);
 }
 
 .awards-block_one-inner:hover::before{
