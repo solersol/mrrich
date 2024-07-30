@@ -68,9 +68,10 @@
 
 .banner-one{
 	position:relative;
-	padding:280px 0px 200px;
+	padding:280px 0px 200px ;
 	background-size:cover;
 	height: 100%;
+	
 }
 
 .banner-one:before{
@@ -87,15 +88,17 @@
 .banner-one_content{
 	position:relative;
 	z-index: 2;
+	
 }
 
 .banner-one_content-inner{
 	position:relative;
+	
 }
 
 .banner-one_heading{
 	font-weight:700;
-	/* font-size: 140px; */
+	font-size: 140px;
 	margin-bottom:80px;
 	color: black;
 	text-transform:uppercase;
@@ -108,26 +111,27 @@
 	line-height: 40px;
 	padding-top:20px;
 	padding-right:180px;
-	color: #fff;
+	color: #ce1b1b;
 	border-top:1px solid #fff;
+	
 }
 
 .banner-one_text-two{
 	position: relative;
-	font-size: 45px;
+	font-size: 35px;
 	line-height: 40px;
 	font-weight: 600;
 
 	padding-bottom:20px;
 	padding-right:180px;
-	color: #fff;
+	color: #770b0b;
 	border-bottom:1px solid var(--white-color);
 }
 
 .banner-one .down-box{
 	position:absolute;
 	left:47%;
-	bottom:65px;
+	bottom:-25px;
 	z-index:10;
 	width:125px;
 	height:125px;
@@ -746,7 +750,11 @@
 .awards-one{
 	position:relative;
 	padding:100px 0px 100px;
+	
 	background: url(/assets/images/X2.png);
+	background-size: cover;
+	
+
 }
 
 .awards-one.style-two{

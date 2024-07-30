@@ -28,9 +28,9 @@
 				<div class="inner-container">
 					<div class="d-flex justify-content-between align-items-center flex-wrap">
 						
-						<div class="logo-box">
+						<!-- <div class="logo-box">
 							<div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
-						</div>
+						</div> -->
 						
 						<div class="nav-outer d-flex flex-wrap">
 							<!-- Main Menu -->
@@ -93,16 +93,11 @@
 	<!-- End Main Header -->
 	
 	<!-- Banner One -->
-	<section class="banner-one" style="background-image:url(assets/images/main.png)">
+	<!-- <section class="banner-one" style="background-image:url(assets/images/main.png)"> -->
 
-					<!-- 3d robot check how to implement -->
 
-		<!-- <div class="robot">
-			<script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.5/build/spline-viewer.js"></script>
-			<spline-viewer url="https://prod.spline.design/AqtlWJlNbO-ZMkvz/scene.splinecode"></spline-viewer>
-		</div> -->
-		<div class="auto-container">
-			<!-- Content Column -->
+		<!-- <div class="auto-container">
+			
 			<div class="banner-one_content">
 				<div class="banner-one_content-inner">
 					<h1 class="banner-one_heading">BUY <br> $MRWOLF</h1>
@@ -116,7 +111,30 @@
 				<img src="assets/images/main-slider/down.png" alt="" />
 			</div>
 		</div>
+	</section> -->
+	<section class="banner-one" style="position: relative; overflow: hidden;">
+		<video autoplay muted loop playsinline style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; object-fit: cover;">
+			<source src="assets/images/main.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	
+
+		<div class="auto-container" style="position: relative; z-index: 1;">
+			<div class="banner-one_content">
+				<div class="banner-one_content-inner ">
+					<h1 class="banner-one_heading">BUY <br> $MRWOLF</h1>
+					<div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
+						<div class="banner-one_text">MR WOLF is the richest wolf in town <br> Mr Wolf from the trenches to the top 1%</div>
+						<div class="banner-one_text-two">Join the official community <br> creating riches</div>
+					</div>
+				</div>
+			</div>
+			<div class="down-box scroll-to-target" data-target=".gallery-one">
+				<img src="assets/images/main-slider/down.png" alt="" />
+			</div>
+		</div>
 	</section>
+	
 	<!-- End Banner One -->
 	<hr class="main__separator">
 
